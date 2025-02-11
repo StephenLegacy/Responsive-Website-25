@@ -56,22 +56,25 @@ nav a {
 .brands{
     display: flex;
     justify-content: center;
-    border: 2px solid red;
-    height: 130px;
-    gap: 40px;
+    height: 120px;
+    gap: 20px;
     align-items: center;
 }
 .brands img{
-    height: 120px;
-    width: 120px;
-    border: 2px solid red;
+    height: 80px;
+    padding: 10px;
+    width: 80px;
     position: relative;
-    object-fit: cover;
+    /* object-fit: cover; */
+}
+#vdesign{
+    height: 30px;
+    width: 80px;
 }
 .properties {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     padding: 20px;
 }
 #we-title, #we-p{
