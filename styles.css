@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(2, 13, 22);
 }
 
 .hero {
@@ -15,7 +16,7 @@ body{
     padding-top: 20px;
     padding-bottom: 50px;
     border-radius: 30px;
-    margin-top: 12px;
+    margin-top: 8px;
     margin-bottom: 0;
 }
 
