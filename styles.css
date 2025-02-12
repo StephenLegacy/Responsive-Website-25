@@ -27,12 +27,17 @@ body{
     background-color: black;
     margin-left: 516px;
     border-radius: 18px;
-    align-content: center;
     align-items: center;
     align-self: center;
     padding-right: 24px;
     width: 320px;
     height: 30px;
+}
+#arkitect{
+    position: relative;
+    display: grid;
+
+    justify-content: flex-start;
 }
 
 nav ul {
@@ -99,15 +104,16 @@ nav a {
     gap: 40px;
 }
 .services-intro{
-    align-items: center;
+    display: flex; 
     justify-content: center;
-    border: 2px solid red;
+    font-weight: 700;
+    /* border: 2px solid red; */
+    height: 20px;
 }
 .planning, .design {
     width: 400px;
     padding: 10px 12px 10px 12px;
     margin: 4px 1px 4px 4px;
-    /* border: 2px solid black; */
 }
 
 .images img {
