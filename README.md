@@ -12,7 +12,7 @@ Responsive-Website-25 is a modern and fully responsive website built using **HTM
 ## Technologies Used
 - **HTML5** – Structuring the web pages.
 - **CSS3** – Styling and responsiveness.
-- **Media Queries** – Ensuring adaptability across devices.
+- **Media Queries** – Ensuring adaptability across devices. -- Still under development
 
 ## Installation & Usage
 1. Clone the repository:
