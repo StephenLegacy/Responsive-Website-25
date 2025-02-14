@@ -16,15 +16,17 @@ body{
     padding-bottom: 50px;
     border-radius: 30px;
     margin-top: 6px;
-    margin-bottom: 0;
+    margin-bottom: 2px;
 }
 
 .all-upper{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 1px;
     align-items: start;
+    padding: 10px;
 }
+
 #arkitect{
     /* position: relative;
     display: grid;
@@ -40,8 +42,8 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 336px;
-    height: 40px;
+    width: 344px;
+    height: 30px;
     margin: 1px;
 }
 
@@ -59,12 +61,11 @@ nav a {
 }
 
 .top-right-icons{
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     gap: 4px;
-
 }
+
 .top-right-icons img{
     height: 30px;
     width: 100%;
@@ -72,7 +73,6 @@ nav a {
     border-radius: 25px;
     padding: 4px;
     margin: 2px;
-
 }
 
 #we-title, #we-p{
