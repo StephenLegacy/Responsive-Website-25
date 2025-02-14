@@ -21,18 +21,21 @@ body{
 
 .all-upper{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 1px;
     align-items: start;
     padding: 10px;
+    gap: 60px;
 }
 
 #arkitect{
-    /* position: relative;
-    display: grid;
+    position: relative;
+    display: flex;
     color: black;
     justify-content: flex-start;
-    border: 3px solid red; */
+    color: white;
+    font-weight: 200;
+    left: -100px;
 }
 
 .hero-head{
@@ -69,7 +72,7 @@ nav a {
 .top-right-icons img{
     height: 30px;
     width: 100%;
-    background-color: bisque;
+    background-color: rgba(255, 255, 255, 0.3); /* White with 50% transparency */
     border-radius: 25px;
     padding: 4px;
     margin: 2px;
@@ -82,7 +85,7 @@ nav a {
 
 #we-title{
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 300;
 }
 .cover{
     position: relative;
