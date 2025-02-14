@@ -8,7 +8,6 @@ body{
 }
 
 .hero {
-    position: relative;
     background: url('assets/hero.jpeg') no-repeat center/cover;
     color: white;
     height: 100%;
@@ -16,33 +15,40 @@ body{
     padding-top: 20px;
     padding-bottom: 50px;
     border-radius: 30px;
-    margin-top: 8px;
+    margin-top: 6px;
     margin-bottom: 0;
+}
+
+.all-upper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1px;
+    align-items: start;
+}
+#arkitect{
+    /* position: relative;
+    display: grid;
+    color: black;
+    justify-content: flex-start;
+    border: 3px solid red; */
 }
 
 .hero-head{
     display: flex;
-    justify-content: center;
-    position: relative;
     background-color: black;
-    margin-left: 516px;
-    border-radius: 18px;
+    padding: 3px;
+    justify-content: center;
     align-items: center;
-    align-self: center;
-    padding-right: 24px;
-    width: 320px;
-    height: 30px;
-}
-#arkitect{
-    position: relative;
-    display: grid;
-
-    justify-content: flex-start;
+    border-radius: 20px;
+    width: 336px;
+    height: 40px;
+    margin: 1px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
+    justify-content: center;
     gap: 15px;
 }
 
@@ -50,6 +56,33 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+.top-right-icons{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+
+}
+.top-right-icons img{
+    height: 30px;
+    width: 100%;
+    background-color: bisque;
+    border-radius: 25px;
+    padding: 4px;
+    margin: 2px;
+
+}
+
+#we-title, #we-p{
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+#we-title{
+    font-size: 48px;
+    font-weight: 900;
 }
 .cover{
     position: relative;
@@ -82,14 +115,6 @@ nav a {
     justify-content: center;
     gap: 40px;
     padding: 20px;
-}
-#we-title, #we-p{
-    padding-left: 10px;
-    margin-left: 20px;
-}
-#we-title{
-    font-size: 48px;
-    font-weight: 900;
 }
 .property {
     background: #f9f9f9;
