@@ -90,7 +90,7 @@ nav a {
 .cover{
     position: relative;
     padding-top: 20px;
-    border-radius: 30px;
+    border-radius: 50px;
     background-color: white;
     margin-top: -44px;
     z-index: 1000;
